@@ -1,0 +1,13 @@
+# Node modules (se aplicável)
+node_modules/
+
+# Sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log
+
+# Build
+dist/

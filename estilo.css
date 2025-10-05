@@ -1,0 +1,69 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#form {
+    display: flex; /* Transforma o formulário em um container flexível, permitindo alinhar os elementos filhos facilmente. */
+    flex-direction: column; /* Faz com que os elementos filhos (inputs e botão) fiquem um embaixo do outro, em coluna. */
+    align-items: center;/* Centraliza horizontalmente todos os elementos filhos dentro do formulário. */
+    width: 500px;
+    margin: auto;
+    background-color: #ccc;
+    height: 200px;
+    margin: 2px solid black;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+input#nome {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input#email {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button {
+    justify-items: center;
+    padding: 10px;
+    border-radius: 3px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
+ul#lista {
+    background-color: #538698;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    width: 500px;
+    color: white;
+    border-radius:20px;
+    box-sizing: border-box;
+    padding: 15px;
+    box-sizing: 2px 2px 2px black;
+    margin: 20px auto 0 auto;
+    gap: 5px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+    border-bottom: 3px solid black;
+}
+
+li button {
+    align-items: center;
+}
