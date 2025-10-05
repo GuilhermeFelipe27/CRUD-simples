@@ -1,4 +1,4 @@
-# CRUDzinho
+# CRUD - Simples
 
 Pequeno projeto de exemplo com HTML, CSS e JavaScript.
 
